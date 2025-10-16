@@ -1,0 +1,85 @@
+[16-Oct-2025 19:42:41 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/xsmdyryt/public_html/admin_panel.php:22) in /home3/xsmdyryt/public_html/admin_panel.php on line 23
+[16-Oct-2025 20:42:51 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'xsmdyryt_user2'@'localhost' to database 'xsmdyryt_azmoon1' in /home3/xsmdyryt/public_html/db_setup.php:12
+Stack trace:
+#0 /home3/xsmdyryt/public_html/db_setup.php(12): mysqli->__construct('localhost', 'xsmdyryt_user2', 'T3pjDAr94ZYH2}B', 'xsmdyryt_azmoon...')
+#1 {main}
+  thrown in /home3/xsmdyryt/public_html/db_setup.php on line 12
+[16-Oct-2025 20:43:02 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'xsmdyryt_user2'@'localhost' to database 'xsmdyryt_azmoon1' in /home3/xsmdyryt/public_html/db_setup.php:12
+Stack trace:
+#0 /home3/xsmdyryt/public_html/db_setup.php(12): mysqli->__construct('localhost', 'xsmdyryt_user2', 'T3pjDAr94ZYH2}B', 'xsmdyryt_azmoon...')
+#1 {main}
+  thrown in /home3/xsmdyryt/public_html/db_setup.php on line 12
+[16-Oct-2025 20:44:06 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'status' in where clause is ambiguous in /home3/xsmdyryt/public_html/admin_panel.php:190
+Stack trace:
+#0 /home3/xsmdyryt/public_html/admin_panel.php(190): mysqli->query('SELECT r.*, u.n...')
+#1 {main}
+  thrown in /home3/xsmdyryt/public_html/admin_panel.php on line 190
+[16-Oct-2025 20:44:24 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'status' in where clause is ambiguous in /home3/xsmdyryt/public_html/admin_panel.php:190
+Stack trace:
+#0 /home3/xsmdyryt/public_html/admin_panel.php(190): mysqli->query('SELECT r.*, u.n...')
+#1 {main}
+  thrown in /home3/xsmdyryt/public_html/admin_panel.php on line 190
+[16-Oct-2025 20:47:43 Asia/Tehran] PHP Warning:  Undefined variable $stmt in /home3/xsmdyryt/public_html/admin_panel.php on line 63
+[16-Oct-2025 20:47:43 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home3/xsmdyryt/public_html/admin_panel.php:63
+Stack trace:
+#0 {main}
+  thrown in /home3/xsmdyryt/public_html/admin_panel.php on line 63
+[16-Oct-2025 20:48:37 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home3/xsmdyryt/public_html/enter_scores.php on line 170
+[16-Oct-2025 20:48:58 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function log_activity() in /home3/xsmdyryt/public_html/logout.php:5
+Stack trace:
+#0 {main}
+  thrown in /home3/xsmdyryt/public_html/logout.php on line 5
+[16-Oct-2025 21:07:46 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/xsmdyryt/public_html/enter_scores.php:22) in /home3/xsmdyryt/public_html/enter_scores.php on line 23
+[16-Oct-2025 21:10:09 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home3/xsmdyryt/public_html/enter_scores.php on line 172
+[16-Oct-2025 21:11:56 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home3/xsmdyryt/public_html/enter_scores.php on line 172
+[16-Oct-2025 21:13:18 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home3/xsmdyryt/public_html/enter_scores.php on line 172
+[16-Oct-2025 21:13:41 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home3/xsmdyryt/public_html/enter_scores.php on line 172
+[16-Oct-2025 21:17:46 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home3/xsmdyryt/public_html/enter_scores.php on line 172
+[16-Oct-2025 22:51:03 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank
+                                  FROM (
+                                ' at line 1 in /home3/xsmdyryt/public_html/report_card.php:84
+Stack trace:
+#0 /home3/xsmdyryt/public_html/report_card.php(84): mysqli->prepare('SELECT COUNT(DI...')
+#1 {main}
+  thrown in /home3/xsmdyryt/public_html/report_card.php on line 84
+[16-Oct-2025 22:53:38 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank' at line 14 in /home3/xsmdyryt/public_html/report_card.php:84
+Stack trace:
+#0 /home3/xsmdyryt/public_html/report_card.php(84): mysqli->prepare('SELECT (\r\n     ...')
+#1 {main}
+  thrown in /home3/xsmdyryt/public_html/report_card.php on line 84
+[16-Oct-2025 22:53:41 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank' at line 14 in /home3/xsmdyryt/public_html/report_card.php:84
+Stack trace:
+#0 /home3/xsmdyryt/public_html/report_card.php(84): mysqli->prepare('SELECT (\r\n     ...')
+#1 {main}
+  thrown in /home3/xsmdyryt/public_html/report_card.php on line 84
+[16-Oct-2025 22:53:49 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rank' at line 14 in /home3/xsmdyryt/public_html/report_card.php:84
+Stack trace:
+#0 /home3/xsmdyryt/public_html/report_card.php(84): mysqli->prepare('SELECT (\r\n     ...')
+#1 {main}
+  thrown in /home3/xsmdyryt/public_html/report_card.php on line 84
+[16-Oct-2025 22:55:50 Asia/Tehran] PHP Warning:  Undefined array key "exam_name" in /home3/xsmdyryt/public_html/report_card.php on line 181
+[16-Oct-2025 22:55:50 Asia/Tehran] PHP Warning:  Undefined array key "overall_traz" in /home3/xsmdyryt/public_html/report_card.php on line 182
+[16-Oct-2025 22:55:50 Asia/Tehran] PHP Warning:  Undefined array key "rank" in /home3/xsmdyryt/public_html/report_card.php on line 183
+[16-Oct-2025 22:55:50 Asia/Tehran] PHP Warning:  Undefined array key "lessons" in /home3/xsmdyryt/public_html/report_card.php on line 197
+[16-Oct-2025 22:55:50 Asia/Tehran] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/xsmdyryt/public_html/report_card.php on line 197
+[16-Oct-2025 22:55:50 Asia/Tehran] PHP Warning:  Undefined array key "lessons" in /home3/xsmdyryt/public_html/report_card.php on line 254
+[16-Oct-2025 22:55:50 Asia/Tehran] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/xsmdyryt/public_html/report_card.php on line 254
+[17-Oct-2025 01:32:01 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'username' in 'where clause' in /home3/xsmdyryt/public_html/admin_login.php:24
+Stack trace:
+#0 /home3/xsmdyryt/public_html/admin_login.php(24): mysqli->prepare('SELECT id, pass...')
+#1 {main}
+  thrown in /home3/xsmdyryt/public_html/admin_login.php on line 24
+[17-Oct-2025 01:51:22 Asia/Tehran] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home3/xsmdyryt/public_html/admin_panel.php on line 582
+[17-Oct-2025 01:54:45 Asia/Tehran] PHP Warning:  Undefined variable $pages in /home3/xsmdyryt/public_html/admin_panel.php on line 507
+[17-Oct-2025 01:54:45 Asia/Tehran] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/xsmdyryt/public_html/admin_panel.php on line 507
+[17-Oct-2025 01:54:55 Asia/Tehran] PHP Warning:  Undefined variable $pages in /home3/xsmdyryt/public_html/admin_panel.php on line 507
+[17-Oct-2025 01:54:55 Asia/Tehran] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/xsmdyryt/public_html/admin_panel.php on line 507
+[17-Oct-2025 01:55:20 Asia/Tehran] PHP Warning:  Undefined variable $pages in /home3/xsmdyryt/public_html/admin_panel.php on line 507
+[17-Oct-2025 01:55:20 Asia/Tehran] PHP Warning:  foreach() argument must be of type array|object, null given in /home3/xsmdyryt/public_html/admin_panel.php on line 507
+[17-Oct-2025 02:07:22 Asia/Tehran] PHP Parse error:  syntax error, unexpected identifier "System" in /home3/xsmdyryt/public_html/admin_panel.php on line 605
+[17-Oct-2025 02:08:51 Asia/Tehran] PHP Parse error:  syntax error, unexpected identifier "System" in /home3/xsmdyryt/public_html/admin_panel.php on line 605
+[17-Oct-2025 02:09:44 Asia/Tehran] PHP Parse error:  syntax error, unexpected floating-point number "1." in /home3/xsmdyryt/public_html/admin_panel.php on line 608
+[17-Oct-2025 02:10:17 Asia/Tehran] PHP Parse error:  syntax error, unexpected variable "$pages" in /home3/xsmdyryt/public_html/admin_panel.php on line 611
+[17-Oct-2025 02:10:28 Asia/Tehran] PHP Parse error:  Unclosed '(' on line 603 in /home3/xsmdyryt/public_html/admin_panel.php on line 611
+[17-Oct-2025 02:23:44 Asia/Tehran] PHP Fatal error:  Cannot redeclare log_activity() (previously declared in /home3/xsmdyryt/public_html/admin_panel.php:21) in /home3/xsmdyryt/public_html/db_connect.php on line 75
+[17-Oct-2025 02:32:30 Asia/Tehran] PHP Fatal error:  Cannot redeclare generate_csrf_token() (previously declared in /home3/xsmdyryt/public_html/admin_panel.php:10) in /home3/xsmdyryt/public_html/db_connect.php on line 83
